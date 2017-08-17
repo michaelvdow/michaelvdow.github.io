@@ -1,0 +1,114 @@
+body{
+    padding-top: 50px;
+    font-family: "Lato";
+}
+#AboutMe {
+    background-color: #337ab7;
+    padding: 50px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#aboutMeTitle {
+    text-align: center;
+    color: white;
+}
+
+.aboutMeItem {
+    padding-top: 30px;
+}
+
+.circular-image {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    position: relative;
+    background-color: white;
+}
+
+.custom-image {
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin-top:-25px;
+    margin-left:-25px;
+    width: 50%;
+    height: 50%;
+    background-size: cover;
+}
+
+.aboutMeTitleText {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.aboutMePargraphText {
+    color: white;
+    padding-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.col-container {
+    display: table;
+    width: 100%;
+}
+
+.col{
+    display: table-cell;
+}
+
+#uiucLogo {
+    background-size: cover;
+    background: url(/img/uiuc.png) center;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 35%;
+}
+
+#imsaLogo {
+    background-size: cover;
+    background: url(/img/imsa.png) center;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 55%;
+}
+
+#loyolaLogo {
+    background-size: cover;
+    background: url(/img/loyola.png) center;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 45%;
+}
+
+#roboticsLogo {
+    background-size: cover;
+    background: url(/img/robotics.png) center;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 65%;
+}
+
+
+
+.jumbotron-text {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #333;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+#Projects {
+    padding: 30px;
+    padding-left: 15%;
+    padding-right: 15%
+}
+
+.technologies {
+    font-size: 16px;
+}

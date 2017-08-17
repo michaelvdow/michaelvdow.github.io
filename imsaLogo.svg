@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="imsaLogo.svg"
+   inkscape:export-filename="C:\Users\Michael Dow\Documents\GitHub\michaelvdow.github.io\img\imsa.png"
+   inkscape:export-xdpi="13.891213"
+   inkscape:export-ydpi="13.891213"
+   inkscape:version="0.92.1 r15371">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="333.48951"
+     inkscape:cy="627.84162"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="2880"
+     inkscape:window-height="1526"
+     inkscape:window-x="2869"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#337ab7;fill-opacity:1;stroke-width:0.52081329"
+       d="M 10.29592,196.99311 V 168.6088 h 31.2488 31.248799 v -29.68636 -29.68637 h 29.686361 29.68636 V 79.028906 48.821739 h 30.20716 30.20717 v 5.46853 5.46855 H 170.44601 148.31144 V 90.486792 121.21479 H 117.32728 86.343139 l -0.13445,30.07697 -0.13444,30.07696 -31.89983,0.13425 -31.899811,0.13424 v 21.87017 21.87016 h -5.989333 -5.989353 z m 82.288509,-19.27008 v -3.90611 h 50.258481 50.25849 v 3.90611 3.90609 H 142.84291 92.584429 Z m 63.018411,-60.1605 v -4.17309 l 18.61907,0.1368 18.61908,0.13681 0.15216,4.0363 0.15216,4.03631 H 174.37412 155.60294 Z M 102.47988,90.486792 V 79.028906 h 11.45789 11.4579 V 90.486792 101.9447 h -11.4579 -11.45789 z"
+       id="path4511"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccccccccccccccccccccccc" />
+  </g>
+</svg>
