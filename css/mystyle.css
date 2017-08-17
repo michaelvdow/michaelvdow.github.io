@@ -112,3 +112,37 @@ body{
 .technologies {
     font-size: 16px;
 }
+
+.thumbnail_picture {
+    max-height: 250px;
+    width: auto;
+    padding-top: 15px;
+}
+
+#projectsTitle {
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+#Resume {
+    padding: 30px;
+    background-color: #337ab7;
+    padding-bottom: 60px;
+}
+
+#resumeText {
+    color: white;
+    padding-bottom: 20px;
+}
+
+#Contact {
+    padding: 30px;
+}
+
+.contactIcons {
+    font-size: 24px;
+}
+
+#contactTitle {
+    padding-bottom: 30px;
+}
