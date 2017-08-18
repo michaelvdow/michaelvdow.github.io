@@ -23,6 +23,7 @@
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
 
 </head>
@@ -35,11 +36,11 @@
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
-                    <li role="presentation" class="active"><a href="#Home">Home</a></li>
-                    <li role="presentation"><a href="#AboutMe">About Me</a></li>
-                    <li role="presentation"><a href="#Projects">Projects</a></li>
-                    <li role="presentation"><a href="#Resume">Resume</a></li>
-                    <li role="presentation"><a href="#Contact">Contact</a></li>
+                    <li id="homeTab" role="presentation" class="active"><a href="#Home" data-toggle="tab">Home</a></li>
+                    <li id="aboutMeTab" role="presentation"><a href="#AboutMe" data-toggle="tab">About Me</a></li>
+                    <li id="projectsTab" role="presentation"><a href="#Projects" data-toggle="tab">Projects</a></li>
+                    <li id="resumeTab" role="presentation"><a href="#Resume" data-toggle="tab">Resume</a></li>
+                    <li id="contactTab" role="presentation"><a href="#Contact" data-toggle="tab">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -47,8 +48,10 @@
     
     <div id="Home" class="jumbotron">
         <div class="container jumbotron-text">
-            <h1 style="font-weight: bold; color: #333">My name is Michael Dow</h1>
-            <p style="font-weight: bold; color: #333; font-size: 24px; padding-bottom: 30px">I am a freshman studying Computer Science at the University of Illinois at Urbana-Champaign</p>
+            <div class="textBackground">
+                <h1 id="mainTitle" style="color: #333">Hi. I'm Michael Dow</h1>
+                <p style="color: #333; font-size: 24px; padding-bottom: 30px">I'm a freshman studying Computer Science at the University of Illinois at Urbana-Champaign</p>
+            </div>
             <a href="#AboutMe" role="button" class="btn-lg btn-primary">About Me</a>
         </div>
     </div>
@@ -61,7 +64,7 @@
                 </div>
                 <p class="aboutMeTitleText">University of Illinois at Urbana-Champaign</p>
                 <p class="aboutMePargraphText">Currently a freshman studying as a computer science major.</p>
-                <button onclick="uiucPage()" type="button" class="btn btn-default">Learn More</button>
+                <button onclick="uiucPage()" type="button" class="bottomButton btn btn-default">Learn More</button>
             </div>
             
             <div class="col-md-3 text-center aboutMeItem">
@@ -69,7 +72,7 @@
                 </div>
                 <p class="aboutMeTitleText">Illinois Math and Science Academy</p>
                 <p class="aboutMePargraphText">Graduated from high-school in 2017.<br><br></p>
-                <button onclick="imsaPage()" type="button" class="btn btn-default">Learn More</button>
+                <button onclick="imsaPage()" type="button" class="bottomButton btn btn-default">Learn More</button>
             </div>
             
             <div class="col-md-3 text-center aboutMeItem">
@@ -77,7 +80,7 @@
                 </div>
                 <p class="aboutMeTitleText">Research at Loyola University Chicago</p>
                 <p class="aboutMePargraphText">Completed a research project from 2015-2016 in comp-sci department.</p>
-                <button onclick="researchPage()" type="button" class="btn btn-default">Learn More</button>
+                <button onclick="researchPage()" type="button" class="bottomButton btn btn-default">Learn More</button>
             </div>
             
             <div class="col-md-3 text-center aboutMeItem">
@@ -85,7 +88,7 @@
                 </div>
                 <p class="aboutMeTitleText">FIRST Robotics<br></p>
                 <p class="aboutMePargraphText">Programming Lead on Titan Robotics, FRC team 2022.</p>
-                <button onclick="roboticsPage()" type="button" class="btn btn-default">Learn More</button>
+                <button onclick="roboticsPage()" type="button" class="bottomButton btn btn-default">Learn More</button>
             </div>
         </div>
     </div>
@@ -95,7 +98,7 @@
         <div class="row">
             <div class="col-md-3">
                 <div class="thumbnail text-center">
-                    <img class="thumbnail_picture" src="img/cuTransit.png">
+                    <img class="thumbnail_picture" src="img/thisWebsite.png">
                     <div class="caption">
                         <h4>This Website</h4>
                         <p>The source code for this website is available on <a href="https://github.com/michaelvdow/michaelvdow.github.io" target="_blank">Github</a></p>
@@ -112,7 +115,7 @@
                 <div class="thumbnail text-center">
                     <img class="thumbnail_picture" src="img/cuTransit.png">
                     <div class="caption">
-                        <a href="#"> <h4>CU Transit: Bus and Navigation</h4></a>
+                        <a href="https://play.google.com/store/apps/details?id=com.apps.michaeldow.cutransitcompanion" target="_blank"> <h4>CU Transit: Bus and Navigation</h4></a>
                         <p>CU Transit is the best way to track bus departures in Champaign-Urbana by using data from CU MTD (Champaign-Urbana Mass Transit District) in real-time</p>
                     </div>
                     <div class="technologies">
@@ -127,13 +130,12 @@
                 <div class="thumbnail text-center">
                     <img class="thumbnail_picture" src="img/phoneAcceleromter.jpg">
                     <div class="caption">
-                        <a href="#"> <h4>Accelerometer-Based Counting of Arbitrary Repetitive Motions</h4></a>
-                        <p>A research project comleted at Loyola University Chicago from 2015-2016. Link to <a href="https://www.imsa.edu/academics/inquiry" target="_blank">research program</a> and link to <a href="/img/researchPaper.pdf" target="_blank">paper</a></p>
+                        <a href="/img/researchPaper.pdf" target="_blank"> <h4>Accelerometer-Based Counting of Arbitrary Repetitive Motions</h4></a>
+                        <p>A research project comleted at Loyola University Chicago from 2015-2016. Link to <a href="https://www.imsa.edu/academics/inquiry" target="_blank">research program</a></p>
                     </div>
                     <div class="technologies">
-                        <i class="devicon-android-plain colored"></i>Android
-                        <i class="devicon-mysql-plain"></i>Sqlite
-                        <i class="devicon-java-plain colored"></i>Java
+                        <i class="devicon-python-plain colored"></i>Python
+                        <i class="devicon-android-plain colored"></i>Android    
                     </div>
                 </div>
             </div>
@@ -142,8 +144,8 @@
                 <div class="thumbnail text-center">
                     <img class="thumbnail_picture" src="img/roboticsLogo.jpg">
                     <div class="caption">
-                        <a href="#"> <h4>FIRST Robotics Programming</h4></a>
-                        <p>Three years of leading Team 2022's programming subteam implementing Java and Python for vision processing. <a href="https://github.com/Titan2022RoboticsTeam" target="_blank">GitHub</a></p>
+                        <a href="https://github.com/Titan2022RoboticsTeam" target="_blank"> <h4>FIRST Robotics Programming</h4></a>
+                        <p>Three years of leading Team 2022's programming subteam implementing Java and Python for vision processing</p>
                     </div>
                     <div class="technologies">
                         <i class="devicon-java-plain colored"></i>Java

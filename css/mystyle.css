@@ -16,6 +16,8 @@ body{
 
 .aboutMeItem {
     padding-top: 30px;
+    position: relative;
+    height: 350px;
 }
 
 .circular-image {
@@ -101,20 +103,26 @@ body{
     color: #333;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
+    padding-left: 50px;    
+    padding-right: 50px;
 }
 
 #Projects {
     padding: 30px;
-    padding-left: 15%;
-    padding-right: 15%
+    padding-left: 10%;
+    padding-right: 10%
 }
 
 .technologies {
     font-size: 16px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 10px;
 }
 
 .thumbnail_picture {
-    max-height: 250px;
+    max-height: 200px;
     width: auto;
     padding-top: 15px;
 }
@@ -145,4 +153,27 @@ body{
 
 #contactTitle {
     padding-bottom: 30px;
+}
+
+
+
+.bottomButton {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 100px;
+}
+
+#mainTitle {
+    
+}
+
+.textBackground {
+    width: auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: 0;
+    padding-top: 5px;
+    margin-bottom: 30px;
 }
