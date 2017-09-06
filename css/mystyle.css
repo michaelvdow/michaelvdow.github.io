@@ -424,3 +424,26 @@ body{
     top: 8em;
     box-shadow: -3px -3px 15px black;
 }
+
+.researchImage1 {
+    position: absolute;
+    height: 32vw;
+    top: 5em;
+    left: calc(50vw - 10% - 30px - 40vw);
+}
+
+.researchImage2 {
+    position: absolute;
+    height: 32vw;
+    top: 6em;
+    left: calc(50vw - 10% - 30px - 22vw);
+    box-shadow: -3px -3px 15px black;
+}
+
+.researchImage3 {
+    position: absolute;
+    height: 25vw;
+    top: 6em;
+    left: calc(50vw - 10% - 30px);
+    box-shadow: -3px -3px 15px black;
+}
