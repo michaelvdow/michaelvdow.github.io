@@ -22,6 +22,7 @@ body{
 #aboutMeTitle {
     text-align: center;
     color: white;
+    padding-bottom: 0.5em;
 }
 
 .aboutMeItem {
@@ -52,12 +53,13 @@ body{
 
 .aboutMeTitleText {
     color: white;
-    font-size: 20px;
+    font-size: 1.5em;
     font-weight: bold;
 }
 
 .aboutMePargraphText {
-    color: white;
+    color: #DDDDDD;
+    font-size: 1.1em;
 /*
     padding-bottom: 20px;
     margin-right: 20px;
@@ -193,6 +195,7 @@ body{
 #timeline {
     list-style: none;
     position: relative;
+    padding-top: 0.5em;
 }
 
 #timeline::before{
@@ -226,7 +229,7 @@ body{
 .timelineTimeOdd {
     position: absolute;
     color: white;
-    font-size: 1.5em;
+    font-size: 1.2em;
     width: 35%;
     left: 55%;
     height: auto;
@@ -236,7 +239,7 @@ body{
 .timelineTimeEven {
     position: absolute;
     color: white;
-    font-size: 1.5em;
+    font-size: 1.2em;
     width: 35%;
     right: 55%;
     padding-top: 20px;
@@ -264,15 +267,16 @@ body{
 .timelineIcon {
     position: absolute;
     left: 50%;
-    top: 1em;
-    padding-top: 1em;
+    top: 0.5em;
+    padding-top: 0.5em;
     vertical-align: center;
     text-align: center;
-    width: 3em;
-    height: 3em;
-    margin-left: -1.5em;
+    width: 2em;
+    height: 2em;
+    margin-left: -1em;
     background: #333;
     border-radius: 50%;
+    color: white;
 }
 
 .arrowRight {
@@ -298,6 +302,6 @@ body{
 }
 
 .abobutMeSubtitleText {
-    color: white;
+    color: teal;
     font-size: 1.2em;
 }
