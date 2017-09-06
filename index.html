@@ -48,16 +48,39 @@
     
     <div id="Home" class="jumbotron">
         <div class="container jumbotron-text">
-            <div class="textBackground">
-                <h1 id="mainTitle" style="color: #333">Hi. I'm Michael Dow</h1>
-                <p style="color: #333; font-size: 24px; padding-bottom: 30px">I'm a freshman studying Computer Science at the University of Illinois at Urbana-Champaign</p>
+            <div>
+                <p id="mainTitle" style="color: #222">Hi. I'm Michael Dow</p>
+                <p style="color: #222; font-size: 2em; padding-bottom: 30px">I'm a freshman studying Computer Science at the University of Illinois at Urbana-Champaign</p>
             </div>
-            <a href="#AboutMe" role="button" class="btn-lg btn-primary">About Me</a>
         </div>
     </div>
     
     <div id="AboutMe">
         <h1 id="aboutMeTitle">Education and Experience</h1>
+        <div id="timeline" class="experienceTimeline">
+            <div class="timelineItem">
+                <p class="timelineTimeOdd">2017</p>
+                <div class="timelineBoxOdd">
+                    <p class="aboutMeTitleText">Illinois Mathematics and Science Academy</p>
+                    <p class="abobutMeSubtitleText">Honors High School</p>
+                    <p class="aboutMePargraphText">Graduated from high-school in 2017</p>
+                </div>
+                <div class="arrowRight"></div>
+                <i class="devicon-html5-plain colored timelineIcon"></i>
+            </div>
+            
+            <div class="timelineItem">
+                <p class="timelineTimeEven">2017</p>
+                <div class="timelineBoxEven">
+                    <p class="aboutMeTitleText">FIRST Robotics</p>
+                    <p class="abobutMeSubtitleText">Head of Programming</p>
+                    <p class="aboutMePargraphText">Programming Lead on Titan Robotics, FRC team 2022.</p>
+                </div>
+                <div class="arrowLeft"></div>
+                <i class="devicon-html5-plain colored timelineIcon"></i>
+            </div>
+        </div>
+<!--
         <div class="row">
             <div class="col-md-3 text-center aboutMeItem">
                 <div class="center-block circular-image" id="uiucLogo">
@@ -91,6 +114,7 @@
                 <button onclick="roboticsPage()" type="button" class="bottomButton btn btn-default">Learn More</button>
             </div>
         </div>
+-->
     </div>
     
     <div id="Projects" class="text-center">

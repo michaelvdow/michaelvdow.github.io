@@ -4504,7 +4504,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-    background-color: #337ab7;
+    background-color: #385880;
     border-color: transparent ;
     background-image: none;
 
@@ -4969,14 +4969,14 @@ a.badge:focus {
   margin-left: 3px;
 }
 .jumbotron {
-    background-image: url("/img/chicagoSkyline.jpg");
+    background-image: url("/img/blurry_background.png");
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
     -webkit-background-size: cover;
     background-size: cover;
     background: contain;
-    height: calc(100vh - 50px);
+    height: calc(100vh);
     text-align: center;
 }
 .jumbotron h1,

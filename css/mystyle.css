@@ -1,12 +1,22 @@
 body{
-    padding-top: 50px;
+    padding-top: 0px;
     font-family: "Lato";
 }
 #AboutMe {
-    background-color: #337ab7;
+/*    background-color: #1c1c1c;*/
+/*    background-image: linear-gradient(#191446, #1c1c1c);*/
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ), url(/img/timelineBackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
     padding: 50px;
+/*
     padding-left: 15%;
     padding-right: 15%;
+*/
 }
 
 #aboutMeTitle {
@@ -48,9 +58,11 @@ body{
 
 .aboutMePargraphText {
     color: white;
+/*
     padding-bottom: 20px;
     margin-right: 20px;
     margin-left: 20px;
+*/
 }
 
 .col-container {
@@ -167,7 +179,7 @@ body{
 }
 
 #mainTitle {
-    
+    font-size: 5em;
 }
 
 .textBackground {
@@ -176,4 +188,116 @@ body{
     z-index: 0;
     padding-top: 5px;
     margin-bottom: 30px;
+}
+
+#timeline {
+    list-style: none;
+    position: relative;
+}
+
+#timeline::before{
+    content:'';
+    position: absolute;
+    top: 0;
+    width: 4px;
+    background: white;
+    height: 100%;
+    left: 50%;
+    margin: -2px;
+}
+
+.timelineBoxOdd {
+    position: relative;
+    width: 35%;
+    height: auto;
+    background: rgba(40,40,40,0.8);
+    text-align: left;
+    left: 10%;
+    padding: 20px;
+    top: 0;
+    margin-top: 30px;
+}
+
+.timelineBoxOdd::after{
+    
+
+}
+
+.timelineTimeOdd {
+    position: absolute;
+    color: white;
+    font-size: 1.5em;
+    width: 35%;
+    left: 55%;
+    height: auto;
+    top: 1em;
+}
+
+.timelineTimeEven {
+    position: absolute;
+    color: white;
+    font-size: 1.5em;
+    width: 35%;
+    right: 55%;
+    padding-top: 20px;
+    height: auto;
+    top: 0;
+    text-align: right;
+}
+
+.timelineItem {
+    position: relative;
+}
+
+.timelineBoxEven {
+    position: relative;
+    width: 35%;
+    height: auto;
+    background: rgba(40,40,40,0.8);
+    text-align: left;
+    left: 55%;
+    padding: 20px;
+    top: 0;
+    margin-top: 30px;
+}
+
+.timelineIcon {
+    position: absolute;
+    left: 50%;
+    top: 1em;
+    padding-top: 1em;
+    vertical-align: center;
+    text-align: center;
+    width: 3em;
+    height: 3em;
+    margin-left: -1.5em;
+    background: #333;
+    border-radius: 50%;
+}
+
+.arrowRight {
+    width: 0;
+    height: 0;
+    border-top: 1.5em solid transparent; 
+    border-bottom: 1.5em solid transparent; 
+    border-left: 1.5em solid rgba(40,40,40,0.8);
+    position: absolute;
+    top: 1em;
+    left: 45%;
+}
+
+.arrowLeft {
+    width: 0;
+    height: 0;
+    border-top: 1.5em solid transparent; 
+    border-bottom: 1.5em solid transparent; 
+    border-right: 1.5em solid rgba(40,40,40,0.8);
+    position: absolute;
+    top: 1em;
+    right: 45%;
+}
+
+.abobutMeSubtitleText {
+    color: white;
+    font-size: 1.2em;
 }
