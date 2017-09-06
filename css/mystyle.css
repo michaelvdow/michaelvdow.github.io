@@ -373,3 +373,54 @@ body{
 .resumeDiv:hover{
     text-decoration: none;
 }
+
+.projectTitle {
+    color: white;
+    text-align: left;
+    font-size: 2em;
+    margin-bottom: 2em;
+}
+
+.projectDescription {
+    position: absolute;
+    color: white;
+    text-align: left;
+    font-size: 1em;
+    bottom: 0;
+}
+
+.appImage1 {
+    position: absolute;
+    width: 18vw;
+    left: calc(50vw - 10% - 30px - 36vw);
+    top: 5em;
+}
+
+.projectDiv {
+    position: relative;
+    height: calc(33vw + 12em);
+}
+
+.appImage2 {
+    position: absolute;
+    width: 18vw;
+    left: calc(50vw - 10% - 30px - 19vw);
+    top: 6em;
+    box-shadow: -3px -3px 15px black;
+}
+
+.appImage3 {
+    position: absolute;
+    width: 18vw;
+    left: calc(50vw - 10% - 30px - 2vw);
+    top: 7em;
+    box-shadow: -3px -3px 15px black;
+}
+
+.appImage4 {
+    position: absolute;
+    width: 18vw;
+    left: calc(50vw - 10% - 30px + 15vw);
+    top: 8em;
+    box-shadow: -3px -3px 15px black;
+}
