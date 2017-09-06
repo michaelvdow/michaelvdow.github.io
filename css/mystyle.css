@@ -125,7 +125,8 @@ body{
 #Projects {
     padding: 30px;
     padding-left: 10%;
-    padding-right: 10%
+    padding-right: 10%;
+    background-color: #222;
 }
 
 .technologies {
@@ -145,17 +146,20 @@ body{
 #projectsTitle {
     padding-bottom: 30px;
     padding-top: 10px;
+    color: white;
 }
 
 #Resume {
     padding: 30px;
     background-color: #337ab7;
-    padding-bottom: 60px;
+}
+#Resume:hover{
+    background-color: #286091;
 }
 
 #resumeText {
     color: white;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 #Contact {
@@ -184,7 +188,7 @@ body{
 #mainTitle {
     font-size: 5em;
     font-family: 'Montserrat';
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .textBackground {
@@ -326,11 +330,46 @@ body{
 
 .logo {
     position: absolute;
-    width: 5em;
+    width: 5.5em;
     height: auto;
     left: 50%;
     transform: translateX(-50%);
-    top: 5%;
     margin-top: 50px;
     opacity: 0.8;
+}
+
+#aboutMeTextButton {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-bottom: 50px;
+    color: white;
+}
+
+.downCaret {
+    color: white;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 30px;
+    left: 50%;
+    transform: translateX(-10px);
+    text-align: center;
+}
+
+.downCaretDiv {
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 30px;
+    left: 50%;
+    transform: translateX(-10px);
+    text-align: center;
+}
+
+.resumeDiv {
+    text-decoration: none;
+}
+
+.resumeDiv:hover{
+    text-decoration: none;
 }

@@ -1,5 +1,15 @@
 $(document).ready(function(e) {
     
+    $("#aboutMeButton").on('click', function(e){
+        e.preventDefault();        
+        $('html, body').animate({
+            scrollTop: $("#AboutMe").offset().top
+        }, 500, function(){
+        });
+        $('.nav li').removeClass('active');
+        $('#homeTab').addClass('active');
+    });
+    
     $("#homeTab").on('click', function(e){
         e.preventDefault();        
         $('html, body').animate({
