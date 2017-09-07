@@ -320,10 +320,13 @@ body{
 #aboutMeTitle {
     text-align: center;
     color: white;
+    padding-bottom: 10px;
 }
 
 #AboutMe {
     padding: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
     background-color: #222;
     padding-bottom: 60px;
 }
@@ -428,22 +431,36 @@ body{
 .researchImage1 {
     position: absolute;
     height: 32vw;
-    top: 5em;
+    bottom: 8em;
     left: calc(50vw - 10% - 30px - 40vw);
 }
 
 .researchImage2 {
     position: absolute;
-    height: 32vw;
-    top: 6em;
-    left: calc(50vw - 10% - 30px - 22vw);
+    height: 28vw;
+    bottom: 7em;
+    left: calc(50vw - 10% - 30px - 20vw);
     box-shadow: -3px -3px 15px black;
 }
 
 .researchImage3 {
     position: absolute;
-    height: 25vw;
-    top: 6em;
-    left: calc(50vw - 10% - 30px);
+    height: 20vw;
+    bottom: 6em;
+    left: calc(50vw - 10% - 30px + 10vw);
     box-shadow: -3px -3px 15px black;
+}
+
+.aboutMeText {
+    color: white;
+    font-size: 1.4em;
+}
+
+.blueLine {
+    height: 2px;
+    width: 80%;
+    background-color: #337ab7;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
