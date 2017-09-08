@@ -164,6 +164,8 @@ body{
 
 #Contact {
     padding: 30px;
+    background-image: url(/img/bottomBackground.png);
+    background-repeat: no-repeat;
 }
 
 .contactIcons {
