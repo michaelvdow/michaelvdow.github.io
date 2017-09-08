@@ -246,6 +246,9 @@ body{
     padding-top: 20px;
 }
 
+.timelineBoxOdd:hover{
+}
+
 .timelineTimeEven {
     position: absolute;
     color: white;
@@ -261,6 +264,7 @@ body{
 .timelineItem {
     position: relative;
 }
+
 
 .timelineBoxEven {
     position: relative;
@@ -385,11 +389,10 @@ body{
 }
 
 .projectDescription {
-    position: absolute;
     color: white;
     text-align: left;
     font-size: 1em;
-    bottom: 0;
+    margin-top: 20px;
 }
 
 .appImage1 {
@@ -399,9 +402,19 @@ body{
     top: 5em;
 }
 
-.projectDiv {
+.projectDiv1 {
     position: relative;
-    height: calc(33vw + 12em);
+    height: calc(33vw + 18em);
+}
+
+.projectDiv3 {
+    position: relative;
+    height: calc(33vw + 9em);
+}
+
+.projectDiv2 {
+    position: relative;
+    height: calc(33vw + 16em);
 }
 
 .appImage2 {
@@ -431,22 +444,22 @@ body{
 .researchImage1 {
     position: absolute;
     height: 32vw;
-    bottom: 8em;
+    bottom: 13em;
     left: calc(50vw - 10% - 30px - 40vw);
 }
 
 .researchImage2 {
     position: absolute;
     height: 28vw;
-    bottom: 7em;
+    bottom: 12em;
     left: calc(50vw - 10% - 30px - 20vw);
     box-shadow: -3px -3px 15px black;
 }
 
 .researchImage3 {
     position: absolute;
-    height: 20vw;
-    bottom: 6em;
+    height: 22vw;
+    bottom: 11em;
     left: calc(50vw - 10% - 30px + 10vw);
     box-shadow: -3px -3px 15px black;
 }
@@ -463,4 +476,65 @@ body{
     margin: 0 auto;
     margin-bottom: 20px;
     margin-top: 10px;
+}
+
+.blueProjectLine {
+    height: 2px;
+    width: 20%;
+    background-color: #337ab7;
+    margin-bottom: 20px;
+    margin-top: 20px;    
+}
+
+.projectTechnology {
+    background-color: rgba(255,255,255,0.9);
+    width: auto;
+    float: left;
+    margin-right: 20px;
+    padding: 5px;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+.projectTechnologies {
+    padding-bottom: 30px;
+}
+
+.projectDescritption {
+    position: absolute;
+    height: 100em;
+}
+
+.projectBottom {
+    position: absolute;
+    bottom: 0;
+    margin-top: 20px;
+}
+
+.roboticsImage1 {
+    position: absolute;
+    height: 26vw;
+    bottom: 12em;
+    left: calc(50vw - 10% - 30px - 40vw);
+}
+
+.roboticsImage2 {
+    position: absolute;
+    height: 26vw;
+    bottom: 11em;
+    left: calc(50vw - 10% - 30px);
+    box-shadow: -3px -3px 15px black;
+}
+
+.projectButton {
+    margin-left: 20px;
+}
+
+.projectLink {
+    width: auto;
+    float: right;
+    margin-left: 20px;
+    padding: 5px;
+    font-size: 1.2em;
+    border-radius: 5px;
 }
