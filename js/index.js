@@ -1,5 +1,15 @@
 $(document).ready(function(e) {
     
+    $("#aboutMeButton").on('click', function(e){
+        e.preventDefault();        
+        $('html, body').animate({
+            scrollTop: $("#AboutMe").offset().top
+        }, 500, function(){
+        });
+        $('.nav li').removeClass('active');
+        $('#homeTab').addClass('active');
+    });
+    
     $("#homeTab").on('click', function(e){
         e.preventDefault();        
         $('html, body').animate({
@@ -61,19 +71,18 @@ function scrollTo(divName){
     }, 'slow');
 }
 
-function uiucPage(){
-    window.open('https://cs.illinois.edu/', '_blank');
+function googlePlayPage(){
+    window.open('https://play.google.com/store/apps/details?id=com.apps.michaeldow.cutransitcompanion&hl=en', '_blank');
 }
 
-function imsaPage(){
-    window.open('http://www.imsa.edu', '_blank');
+function researchPaperPage(){
+    window.open('/img/researchPaper.pdf', '_blank');
 }
 
-function researchPage(){
-    window.open('http://www.pac-lab.org/', '_blank');
+function researchCodePage(){
+    window.open('https://github.com/michaelvdow/RepetitionCounting', '_blank');
 }
 
-function roboticsPage(){
-    window.open('https://www.facebook.com/TitanRobotics2022/', '_blank');
+function roboticsCodePage(){
+    window.open('https://github.com/titan2022', '_blank');
 }
-
