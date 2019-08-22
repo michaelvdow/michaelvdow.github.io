@@ -7,12 +7,12 @@
 }
 
 .logo {
-    height: 8vw;
+    height: 6vw;
 }
 
 .headerLink {
     font-size: 2vw;
-    color: #5d5d5d;
+    color: white;
     text-decoration: none;
     padding-left: 20px;
 }

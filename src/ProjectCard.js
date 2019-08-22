@@ -6,7 +6,7 @@ class ProjectCard extends React.Component {
         return (
             <div className="projectCard">
                 <img className="cardImg" src={this.props.image}></img>
-                <h3 className="cardTitle">{this.props.title}</h3>
+                <h2 className="cardTitle">{this.props.title}</h2>
                 <p className="cardDescription">{this.props.description}</p>
             </div>
         )

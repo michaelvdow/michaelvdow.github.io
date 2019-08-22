@@ -1,7 +1,43 @@
 .Header {
-    font-size: 3.5vw;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 100vh;
+    background-image: url("./img/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
 }
 
-.headerBar {
-    align-items: center;
+.headerTitle {
+    font-size: 5vw;
+}
+
+.headerBody {
+    font-size: 2vw;
+}
+
+.aboutMeDiv {
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.aboutMe {
+    font-size: 1.5vw;
+}
+
+.arrow {
+    height: 40px;
+    width: 40px;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
 }
