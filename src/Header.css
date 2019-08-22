@@ -13,6 +13,7 @@
 }
 
 .headerTitle {
+    margin-bottom: 0;
     font-size: 5vw;
 }
 
@@ -33,11 +34,15 @@
 }
 
 .arrow {
-    height: 40px;
-    width: 40px;
+    height: 3vw;
+    width: 3vw;
 }
 
 .link {
     text-decoration: none;
     color: white;
+}
+
+.link:hover {
+    color: #a7a7a7;
 }

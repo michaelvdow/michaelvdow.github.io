@@ -3,6 +3,8 @@
     flex-direction: column;
     padding-left: 5%;
     padding-right: 5%;
+    background: #fbfbfb;
+    padding-bottom: 30px;
 }
 
 .projectCards {
