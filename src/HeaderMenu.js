@@ -7,9 +7,9 @@ function HeaderMenu() {
     return (
         <div className="HeaderMenu">
             <img src={logo} className="logo" alt="logo"/>
-            <div>
-                <a href={resume} target="_blank" className="headerLink">Resume</a>
-                <a href="#contact" className="headerLink">Contact</a>
+            <div className="menuItems">
+                <a href={resume} target="_blank" className="headerLink"><h2>Resume</h2></a>
+                <a href="#contact" className="headerLink"><h2>Contact</h2></a>
             </div>
         </div>
     )
