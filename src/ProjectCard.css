@@ -1,0 +1,29 @@
+.projectCard {
+    width: 300px;
+    height: auto;
+    max-width: 600px;
+    min-width: 200px;
+    flex: 1 0 400px;
+
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    margin: 20px;
+}
+
+.projectCard:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.cardImg {
+    width: 100%;
+
+}
+
+.cardTitle {
+    width: 100%;
+    text-align: center;
+}
+
+.cardDescription {
+    padding-left: 16px;
+    padding-right: 16px;
+}

@@ -1,0 +1,14 @@
+.Projects {
+    display: flex;
+    flex-direction: column;
+}
+
+.projectCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.projectsTitle {
+    font-size: 3vw;
+}
