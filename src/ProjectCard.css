@@ -33,21 +33,59 @@
 .cardLinks {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
+    padding: 0 16px 16px 16px;
 }
 
 .tools {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .tool {
+    display: flex;
     background: #222;
     color: white;
     margin-right: 5px;
-    line-height: 0;
+    line-height: 0%;
+    padding: 0 10px 0 10px;
+    margin: 5px 5px 5px 5px;
+    border-radius: 5px;
+}
+
+i {
+    padding: 4px 4px 0 0;
+    font-size: 1.5em;
 }
 
 .links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
+.link {
+    background: #45678d;
+    color: white;
+    margin-right: 5px;
+    line-height: 0%;
+    padding: 0 10px 0 10px;
+    padding: 0 10px 0 10px;
+    margin: 5px 5px 5px 5px;
+    border-radius: 5px;}
+
+.linkText {
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover {
+    background: #235792;
+    color: #a7a7a7;
+}
+
+.linkText:hover {
+    color: #a7a7a7;
 }
